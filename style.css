@@ -1,8 +1,38 @@
 .social-links a{
-  color:black;
+  color:white;
 }
 .site-bg{
-  background-image: url(./images/wood-g6c78627e7_1920.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: url(./images/wood-g6c78627e7_1920.jpg) no-repeat fixed center;
+}
+@media(max-width:768px){
+  .project h5{
+    font-size:small;
+  }
+  .project p{
+    font-size: small;
+  }
+}
+@media(max-width:425px){
+  .project h5{
+    font-size:smaller;
+  }
+  .project p{
+    font-size: smaller;
+  }
+}
+@media(min-width:768px){
+  .project h5{
+    font-size:large;
+  }
+  .project p{
+    font-size: large;
+  }
+}
+@media(min-width:992px){
+  .project h5{
+    font-size:larger;
+  }
+  .project p{
+    font-size: larger;
+  }
 }
